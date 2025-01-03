@@ -1,0 +1,7 @@
+{
+    "entry": "sycmd.pwn",
+    "output": "sycmd.amx",
+    "dependencies": [
+        "Kobalitoo/sycmd-helper"  
+    ]
+}
