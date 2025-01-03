@@ -23,7 +23,7 @@ sampctl package install Kobalitoo/sycmd
 Once installed, include the library in your project:
 ```
 
-#include <sycmd>
+# include <sycmd>
 Manual Installation
 Alternatively, you can manually download the sycmd.inc file and place it in your project directory. Then, include it like this:
 
