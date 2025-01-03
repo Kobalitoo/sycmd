@@ -25,10 +25,11 @@ To get started with sycmd, follow the steps below:
 Using sampctl (Recommended)
 Simply install the package using sampctl for easy management and updates:
 
-bash
-Copiar código
+b
+```
 sampctl package install Kobalitoo/sycmd
 Once installed, include the library in your project:
+```
 
 pawn
 Copiar código
