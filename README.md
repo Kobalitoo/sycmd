@@ -1,14 +1,24 @@
-sycmd - Command System for SA:MP
-sycmd is a lightweight and powerful command library for SA:MP (San Andreas Multiplayer). It allows you to create, manage, and customize server commands efficiently, while also offering advanced features like permission handling and seamless integration with your gamemode.
+# sycmd - Command System for SA:MP
+sycmd is a lightweight and powerful command library for SA:MP (San Andreas Multiplayer). It allows you to create, manage, and customize server commands efficiently, offering advanced features like permission handling and seamless integration with your gamemode.
 
-This repository is an easy-to-use solution for managing SA:MP commands, including support for multiple arguments, admin permissions, and simple command structures.
+This repository is an easy-to-use solution for managing SA:MP commands, with support for multiple arguments, admin permissions, and simple command structures.
 
 🚀 Features
-Simple and fast command creation: Add commands to your server using a straightforward macro.
-Supports multiple arguments: Define commands with multiple parameters and handle them flexibly.
-Permission system: Easily manage who can execute certain commands with admin-level checks.
-Lightweight and optimized: Minimal impact on server performance.
-Seamless integration: Works with any SA:MP gamemode or extension.
+Simple and Fast Command Creation
+Add commands to your server using a straightforward macro.
+
+Multiple Arguments Support
+Define commands with multiple parameters and handle them flexibly.
+
+Permission System
+Easily manage who can execute certain commands with admin-level checks.
+
+Lightweight & Optimized
+Minimal impact on server performance.
+
+Seamless Integration
+Works with any SA:MP gamemode or extension.
+
 🔧 Installation
 To get started with sycmd, follow the steps below:
 
@@ -24,7 +34,7 @@ pawn
 Copiar código
 #include <sycmd>
 Manual Installation
-Alternatively, you can manually download the sycmd.inc file and place it in your project directory. Then, include it as follows:
+Alternatively, you can manually download the sycmd.inc file and place it in your project directory. Then, include it like this:
 
 pawn
 Copiar código
@@ -53,7 +63,7 @@ synCommand(adminOnlyCommand, playerid, params[]) {
     SendClientMessage(playerid, COLOR_GREEN, "Admin command executed successfully.");
     return 1;
 }
-Example with Arguments
+Command with Multiple Arguments
 Commands can also accept multiple arguments:
 
 pawn
@@ -78,6 +88,7 @@ For more advanced usage and detailed documentation, please refer to the original
 📜 License
 This repository is licensed under the MIT License. Feel free to contribute, modify, and use it in your projects.
 
-Notes:
-Replace # in original documentation with the correct link if you have a detailed documentation elsewhere or refer to this repository.
-The installation and usa
+📌 Notes
+Replace # in original documentation with the correct link if you have detailed documentation elsewhere.
+The installation and usage sections provide easy-to-understand steps, with code examples that help users get started quickly.
+This design enhances the readability and appeal of your repository's README, making it user-friendly and professional-looking on GitHub.
