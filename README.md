@@ -78,4 +78,5 @@ For more advanced usage and detailed documentation, please refer to the original
 This repository is licensed under the MIT License. Feel free to contribute, modify, and use it in your projects.
 
 # 📌 Notes
-Replace # in original documentation with the correct link if you have detailed documentation elsewhere. The installation and usage sections provide easy-to-understand steps, with code examples that help users get started quickly. This design enhances the readability and appeal of your repository's README, making it user-friendly and professional-looking on GitHub.
+This document is being updated consecutively, which is in its beta phase, make sure you have the most recent update.
+
