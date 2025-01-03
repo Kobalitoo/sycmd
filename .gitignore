@@ -1,0 +1,26 @@
+# Ignore compiled Pawn binaries (AMX files)
+*.amx
+
+# Ignore Pawn temporary files
+*.pwn~
+
+# Ignore backup files
+*.bak
+
+# Ignore IDE configuration folders
+.vscode/
+.idea/
+
+# Ignore OS-specific files (macOS, Windows, etc.)
+.DS_Store
+Thumbs.db
+
+# Ignore log files if any
+*.log
+
+# Ignore any generated sycmd shared object or DLL files
+sycmd.so
+sycmd.dll
+
+# Ignore node_modules (in case you use JavaScript for anything related to the project)
+node_modules/
