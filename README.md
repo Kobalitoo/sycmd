@@ -38,10 +38,10 @@ Alternatively, you can manually download the sycmd.inc file and place it in your
 ```
 ```
 #include "sycmd.inc"
+```
 # ⚡ Usage
 Basic Command Example
 After including the library, you can start defining commands like this:
-```
 ```
 synCommand(help, playerid, params[]) {
     SendClientMessage(playerid, 0xFFFF00FF, "This is the help command!");
