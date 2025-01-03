@@ -1,0 +1,21 @@
+# Recognize .pwn files as Pawn
+*.pwn linguist-language=Pawn
+
+# Recognize .inc files as Pawn
+*.inc linguist-language=Pawn
+
+# Ensure that .pwn and .inc files are treated as text with LF line endings
+*.pwn text eol=lf
+*.inc text eol=lf
+
+# Binary files (like .amx) should be treated as binary
+*.amx binary
+
+# Configuration files like .json and .yml
+*.json text eol=lf
+*.yml text eol=lf
+
+# Other important text files like .gitignore, LICENSE, and README.md
+.gitignore text eol=lf
+LICENSE text eol=lf
+README.md text eol=lf
