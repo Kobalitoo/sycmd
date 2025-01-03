@@ -25,36 +25,32 @@ To get started with sycmd, follow the steps below:
 Using sampctl (Recommended)
 Simply install the package using sampctl for easy management and updates:
 
-b
+
 ```
 sampctl package install Kobalitoo/sycmd
 Once installed, include the library in your project:
 ```
 
-pawn
-Copiar código
+```
 #include <sycmd>
 Manual Installation
 Alternatively, you can manually download the sycmd.inc file and place it in your project directory. Then, include it like this:
-
-pawn
-Copiar código
+```
+```
 #include "sycmd.inc"
 # ⚡ Usage
 Basic Command Example
 After including the library, you can start defining commands like this:
-
-pawn
-Copiar código
+```
+```
 synCommand(help, playerid, params[]) {
     SendClientMessage(playerid, 0xFFFF00FF, "This is the help command!");
     return 1;
 }
 Command with Admin Permissions
 To restrict a command to admins only:
-
-pawn
-Copiar código
+```
+```
 synCommand(adminOnlyCommand, playerid, params[]) {
     if (!IS_ADMIN(playerid)) {
         SendClientMessage(playerid, COLOR_RED, "You don't have permission to use this command.");
@@ -66,23 +62,23 @@ synCommand(adminOnlyCommand, playerid, params[]) {
 }
 Command with Multiple Arguments
 Commands can also accept multiple arguments:
-
-pawn
-Copiar código
+```
+```
 synCommand(testArgsCommand, playerid, params[]) {
     SendClientMessage(playerid, COLOR_GREEN, "Command with multiple arguments executed!");
     return 1;
 }
 Advanced Logging (Optional)
 You can implement logging of executed commands:
-
-pawn
-Copiar código
+```
+```
 public logCommand(playerid, cmdtext[], success)
 {
     format(logBuffer[playerid], sizeof(logBuffer[playerid]), "Player %d executed the command: %s. Success: %d", playerid, cmdtext, success);
     printf(logBuffer[playerid]); // Print log to server console
 }
+
+```
 # 📝 Documentation
 For more advanced usage and detailed documentation, please refer to the original documentation or explore the source code in this repository.
 
